@@ -2,6 +2,6 @@ image: buildpack-deps:disco
 
 release:
   only:
-    - release@getto-systems-labo/connect/coc/markdownlint
+    - release@getto-systems-labo/container/coc/markdownlint
   script:
     - ./bin/push_tags.sh
